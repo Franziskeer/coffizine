@@ -1,15 +1,20 @@
 {
   "name": "@coffizine/wysiwyg",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "A WYSIWYG editor with form inputs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Franziskeer/coffizine-wysiwyg.git"
+  },
+  "main": "build/index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Franziskeer",
   "license": "ISC",
   "dependencies": {
-    "@coffizine/wysiwyg": "^1.0.0"
+    "@coffizine/wysiwyg": "^1.0.0",
+    "wysiwyg": "^2.0.0"
   }
 }
